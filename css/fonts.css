@@ -1,0 +1,8 @@
+﻿ @font-face{ 
+ font-family: '/fonts/Neris-Light-webfont';
+  src: url('../fonts/Neris-Light-webfont.eot'); 
+  src: url('../fonts/Neris-Light-webfont-1.eot') format('eot'), 
+    url('../fonts/Neris-Light-webfont.woff') format('woff'), 
+  url('../fonts/Neris-Light-webfont.ttf') format('truetype'), 
+  url('../fonts/Neris-Light-webfont.svg') format('svg');
+ }

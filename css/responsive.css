@@ -1,0 +1,384 @@
+@charset "utf-8";
+
+.show-mobile { display: none; }
+
+/*--------------media query css------------------*/
+@media (max-width:1024px) {
+    input{border-radius:0;}
+ 
+}
+
+/*------------tablet landscape view------*/
+@media (max-width:1000px) {
+.main {width: 100%; padding: 0 3%;}
+*{box-sizing:border-box;}
+.sbHolder{height:34px;}
+#mid-container{padding-top:40px;}
+.solar-benefit{margin-left:0; width:35%; margin-right:20px;}
+.why-solar{width:60%; margin-right:0;}
+.featured-logo li{margin-right:4%;}
+.featured-logo li.last{margin-right:0;}
+.featured-title{width:20%; margin-right:20px;}
+.featured-logo{width:75%;}
+.featured-title{font-size:19px;}
+.step2-form .col-wd .input-box{width:100% !important;}
+.step3-form .inputbox{width:100%;}
+
+footer{padding-bottom:50px;}
+
+
+}
+@media (max-width:980px) {
+	.three-step-container .green-bg h1{font-size:36px; }
+	.solar-benefit .block-txt{font-size:15px;}
+	.featured-logo li{margin-right:2%;}
+	.solar-benefit{width:37%;}
+	.footer-right .footer-icon{margin-right:7px;}
+	.footer-left{width:46%;}
+    .featured-title{font-size:18px;}
+    .styled-txt{
+        background-image: url(../images/underline-sm.png)!important;
+        background-position: 5px 31px;
+    }
+
+}
+
+@media (max-width:900px) {
+	.featured-title{margin-right:15px;}
+	.featured-logo{width:76%;}
+	.featured-logo li{margin-right:1%;}
+	.zipcode-content{bottom:5px;}
+
+    .three-step-container h3 {
+        font-size: 13px;
+    }
+}
+@media (max-width:850px) {
+	.solar-benefit{width:41%;}
+	.solar-benefit .block-txt{font-size:14px;}
+	.why-solar{width:56%;}
+	.why-solar p{font-size:16px;line-height:21px;}
+	.featured-title{font-size:17px; width:22%; margin-top:30px;}
+	.featured-logo ul{font-size:0;}
+	.featured-logo li{width:19%; vertical-align:middle; text-align:center;}
+	.featured-logo li img{width:80%;}
+	.footer-left{font-size:12px;}
+	.footer-right p{font-size:13px;}
+}
+@media (max-width:810px) {
+    .header-top {
+        padding: 15px 0;
+    }
+
+    .logo {
+        float: none;
+        text-align: center;
+        /* margin-bottom: 20px; */
+    }
+
+    .top-txt {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .top-txt .warning-txt {
+        display: inline;
+    }
+
+    .top-txt .warning-txt span {
+        display: inline;
+        line-height: 24px;
+    }
+    .styled-txt{
+        background-position: 6px 26px;
+    }
+
+	.featured-title{font-size:16px;}
+	.three-step-container .green-bg h1{font-size:32px; }
+	.featured-title{margin-right:10px;}
+	.footer-left{width:43%;}
+}
+
+/*------------mobile landscape  view------*/
+@media (max-width:767px) {
+	.zipcode-content{right:10px;}
+	.solar-benefit{width:100%; margin:0 auto; float:none; margin-bottom:40px;}
+	.why-solar{float:none; margin:0 auto;width:100%;}
+	.featured-title{float:left;width:100%; margin-right:0; text-align:center; margin-bottom:15px;}
+	.featured-logo{width:100%;}
+	.featured-logo li{display:block; width:auto; margin-right:0; margin-bottom:15px;}
+	.featured-logo li img{width:auto;}
+	.footer-left{width:100%; margin-right:0;}
+	.footer-right{width:100%; margin-top:15px;}
+	.footer-left p{margin-top:10px;}
+
+}
+/*------------mobile portrait view------*/
+@media (max-width:660px) {
+
+	.three-step-container .check-availability,
+    .three-step-container .about-home,
+    .three-step-container .contact-info{
+        float: none;
+        text-align: left;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .styled-txt{
+        background-image: url(../images/underline-xs.png)!important;
+        background-position: 6px 21px;
+    }
+
+
+    .row{
+        margin:0;
+    }
+
+    .zipcode-content .zipcode {
+        font-size: 18px;
+    }
+    .zipcode-content{
+    width: auto;
+    left: 10px;
+    bottom: 13px;
+    height: 323px;
+
+    } /* this was 
+    width: auto;
+    left: 10px;
+    bottom: 6px;
+    height: auto;  */
+	.register-popup,.register-popup{width:100%;}
+	.three-step-container .green-bg h1{font-size:26px; }
+	.three-step-container h3{font-size:13px;}
+	.zipcode-content .zipcode{padding:7px 0 ;text-align:center;}
+	.zipcode-content .zipcode-form .col-1 .txt-box{font-size:16px; }
+    .zipcode-content .zipcode-form {
+        padding: 6px 12px;
+        height:255px;
+    }
+
+    .zipcode-content .zipcode-form #pincode-form .col-1 > label {
+        width: 75px;
+    }
+
+    .zipcode-content .zipcode-form #pincode-form .col-1 > label,
+    .zipcode-content .zipcode-form #pincode-form .col-1 > input {
+        display: inline-block;
+        height: 41px;
+        line-height: 30px;
+        vertical-align: middle;
+    }
+
+    .zipcode-content .zipcode-form #pincode-form .col-2 > .select-checkboxes {
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .zipcode-content .zipcode-form .col-2 .checkboxes {
+        top: 51px;
+    }
+
+    .zipcode-content .zipcode-form .col-1 {
+        float: none;
+        margin-top: 12px;
+    }
+    .lock{
+        padding-top: 5px;
+    }
+
+    .zipcode-content .zipcode-form .col-2 {
+        margin-left: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: none;
+    }
+
+    .zipcode-content .zipcode-form .col-3 {
+        margin-left: 0;
+        padding-top: 5px;
+        float: none;
+    }
+
+    .zipcode-content .zipcode-form .row.security {
+       /*  position: absolute; */
+        right: 41px;
+        bottom: 10px;
+        left: 120px;
+        height: 98px;
+        z-index: 1;
+       /*  overflow: hidden; */
+        margin-bottom: 0;
+    }
+
+    .row.security .lock {
+        margin-right: 5px;
+    }
+
+    .row.security p {
+        float: none;
+        overflow: hidden;
+        width: auto;
+    }
+
+    .support-info {
+        padding: 0;
+    }
+
+    .support-info-content {
+        float: none;
+        width: 100%;
+        padding: 2em;
+        margin: 0;
+    }
+}
+/*----------optional css------*/
+@media (max-width:599px) {
+	.three-step-container .green-bg h1{font-size:22px; padding:5px 10px;}
+	.three-step-container .green-bg{padding:7px 0 10px 0;}
+	.logo{float:none; text-align:center; margin-bottom:0px;} /* was 15px margin-bottom */
+	.three-step-container .no-round .no-txt{line-height:normal; padding:0;}
+	.top-txt{float:none; margin:0 auto}
+
+    .three-step-container .yellow-bg { display: none; }
+    .show-desktop { display: none; }
+    .show-mobile { display: block; }
+
+    .styled-txt{
+        background-image: url(../images/underline-mobile.png)!important;
+        background-position: 14px 21px;
+        font-size: 24px;
+    } 
+}
+@media (max-width:550px) {
+
+	.why-solar{width:100%;}
+	.register-popup .midd-content,.register-popup-2 .midd-content{width:90%;}
+
+    .step2-form {
+        padding-top: 10px;
+    }
+
+    .step2-form .col-half {
+        width: 100%;
+    }
+    .step2-form .col-half.right {
+        margin: 0;
+    }
+
+    .step2-form .row {
+        margin: 0;
+    }
+
+    .step2-form .col-label {
+        margin-top: 10px;
+    }
+	.step2-form .col-city,.step2-form .col-state,.step2-form .col-zipcode{width:100%; margin-left:0;}
+	.step2-form .dob-data{width:100%;}
+	.step2-form .mrleft{margin-left:0;}
+	.step3-form .col-1{width:100%;}
+	.step3-form .col-2{width:100%; margin-left:0;}
+
+	.bx-wrapper img{height:300px !important;}
+	.btm-icon{margin-left:0;}
+	.second, .third{left:30px !important; top:20px !important; width:90% !important;}
+    .second, .third{left:30px; top:20px; width:90%;}
+    /* Add Lex */
+    .register-popup-2 {width: 100%;}
+
+    .services {
+        padding: 0;
+    }
+
+    .service {
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 2em;
+        overflow: hidden;
+    }
+
+    .service-image {
+        float: left;
+        width: 25%;
+    }
+
+    .service-description {
+        display: none;
+    }
+
+    .service p {
+        display: block;
+        float: right;
+        width: 75%;
+        padding-left: 40px;
+        margin: 10px 0 0 0;
+        text-align: left;
+    }
+}
+@media (max-width:470px) {
+
+	.register-popup .titlebg .step-txt{text-align:center;float:none; clear:both; padding-right:0;}
+	.register-popup .titlebg .title{text-align:center;padding-left:0; width:100%; margin-bottom:15px;}
+	.solar-benefit .block-txt{font-size:13px;}
+	.why-solar h3{font-size:22px; line-height:25px;}
+	.why-solar p{font-size:13px; line-height:20px;}
+    /* ADD Lex */
+    .top-txt{display: none; }
+    .txt-box, #select_yes_no {
+        width:100%!important;
+        font-size:16px!important;
+    }
+    .zipcode-content{
+        height: 338px;
+        bottom: -2px;
+    }
+}
+/* Media Query for line break, will be different on every speciality  
+ */@media (max-width:415px) {
+     .top-break{
+        display:block;
+    }
+
+}
+@media (max-width:400px) {
+	.solar-benefit{width:100%;}
+	.why-solar img{display:block; float:none;margin:0 auto;}
+	.second, .third{left:25px !important; top:20px !important; width:90% !important;}
+    .bxslider li{height:260px !important;}
+    .zipcode-content{
+        height: 356px;
+        bottom: -98px;
+    }
+    
+    #mid-container {
+        padding-top: 114px;
+    }
+
+}
+@media (max-width:350px) {
+	.second, .third{left:15px !important; top:20px !important; width:90% !important;}
+    .register-btn{padding:8px 50px;}
+    .zipcode-content .zipcode-form .col-1 .txt-box{
+        width: 180px;
+    }
+    .zipcode-content .zipcode-form .row {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    } 
+    .zipcode-content{
+        height: 340px;
+        bottom: -79px;
+    }
+    #mid-container {
+        padding-top: 100px;
+    }
+    
+
+}
+
+/*---------use only when design is customise-----------*/
